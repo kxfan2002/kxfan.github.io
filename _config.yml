@@ -12,7 +12,7 @@ title                    : "Kaixuan Fan 范凯旋"
 title_separator          : "-"
 name                     : &name "Kaixuan"
 description              : &description "personal description"
-url                      : https://kxfan2002.github.io/
+url                      : https://kxfan2002.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pi.png"
+  avatar           : "profile.png"
   name             : "Kaixuan Fan"
   pronouns         : # example: "she/her"  
   bio              : "Third year undergraduate student of Fudan CS"
