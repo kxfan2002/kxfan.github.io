@@ -14,7 +14,3 @@ I'm fortunate to be advised by [Prof. Zuxuan Wu](https://cs.fudan.edu.cn/) of [F
 I'm currently looking for PhD opportunities. If you are interested in me, feel free to [email](kxfan21@m.fudan.edu.cn) me!
 
 
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
