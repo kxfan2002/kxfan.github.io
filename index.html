@@ -1,43 +1,186 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kaixuan Fan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Kaixuan Fan is a Ph.D. student at CUHK MMLab working on multimodal reasoning and AI agents."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+      content="Kaixuan Fan is a Ph.D. student at MMLab, The Chinese University of Hong Kong, working on multimodal reasoning, agentic reinforcement learning, and generative models."
+    >
+    <title>Kaixuan Fan</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="ambient ambient-one"></div>
-    <div class="ambient ambient-two"></div>
-    <div class="page-shell">
-      <main class="hero-card">
-
-        <div class="bio-grid">
-          <section class="bio-block">
-            <h2>About</h2>
-            <p>
-              I am a first-year Ph.D. student at the Multimedia Laboratory
-              (MMLab), The Chinese University of Hong Kong supervised by Prof. Xiangyu Yue. My current research
-              focuses on multimodal reasoning and AI agents.
-            </p>
-            <p>
-              Before joining CUHK, I received my B.S. in Computer Science from
-              Fudan University, supervised by Prof. Zuxuan Wu and Prof. Yu-Gang Jiang.
-            </p>
-          </section>
-
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Kaixuan Fan</a>
+        <div class="nav-links">
+          <a href="#publications">Publications</a>
+          <a href="#internship">Internship</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
         </div>
-      </main>
-    </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Ph.D. Student, MMLab CUHK</p>
+          <h1 id="hero-title">Kaixuan Fan</h1>
+          <p class="lead">
+            My name is Kaixuan Fan (范凯旋). I am a 1st year PhD student at
+            CUHK MultiMedia Lab, under the supervision of Prof. Xiangyu Yue.
+            Before that, I obtained my bachelor degree at the School of
+            Computer Science, Fudan University, advised by Prof. Zuxuan Wu and
+            Prof. Yu-Gang Jiang. I have been a research intern at Meituan
+            LongCat Group and Shanghai Artificial Intelligence Laboratory. My
+            research interests lie in multimodal reasoning, agentic
+            reinforcement learning, reward modeling, and generative models.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="mailto:kxfan127@gmail.com">Email</a>
+            <a class="button secondary" href="assets/Kaixuan_Fan_CV_2026.pdf">CV</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Profile summary">
+          <img class="portrait" src="assets/image.jpg" alt="Kaixuan Fan">
+          <dl>
+            <div>
+              <dt>Affiliation</dt>
+              <dd>CUHK MMLab</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Hong Kong</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:kxfan127@gmail.com">kxfan127@gmail.com</a></dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section two-column" id="education" aria-labelledby="education-title">
+        <div>
+          <p class="section-kicker">Background</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="timeline">
+          <article class="entry">
+            <div class="entry-date">Aug. 2025 - Jun. 2029 (expected)</div>
+            <h3>The Chinese University of Hong Kong</h3>
+            <p>Ph.D. student, MMLab</p>
+            <p class="muted">Supervisor: Prof. Xiangyu Yue.</p>
+            <p class="muted">Recipient of the Hong Kong PhD Fellowship Scheme.</p>
+          </article>
+          <article class="entry">
+            <div class="entry-date">Sept. 2021 - Jun. 2025</div>
+            <h3>Fudan University</h3>
+            <p>Bachelor of Science in Computer Science and Technology</p>
+            <p class="muted">Supervisor: Prof. Zuxuan Wu and Prof. Yu-Gang Jiang.</p>
+            <p class="muted">GPA: 3.86/4.0.</p>
+            <p class="muted">Ranked 1/101 in the Department of Computer Science.</p>
+            <p class="muted">Ranked 1/195 in the School of Computer Science.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2 id="publications-title">Publications</h2>
+        </div>
+        <div class="publication-list">
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2505.17018">SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward</a></h3>
+            <p><strong>Kaixuan Fan*</strong>, Kaituo Feng*, Haoming Lyu, Dongzhan Zhou, Xiangyu Yue.</p>
+            <p class="venue">International Conference on Learning Representations, 2026.</p>
+          </article>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2601.22154">Exploring Reasoning Reward Model for Agents</a></h3>
+            <p><strong>Kaixuan Fan</strong>, Kaituo Feng, Manyuan Zhang, Tianshuo Peng, Zhixun Li, Yilei Jiang, Shuang Chen, Peng Pei, Xunliang Cai, Xiangyu Yue.</p>
+            <p class="venue">Findings of the Annual Meeting of the Association for Computational Linguistics, 2026.</p>
+          </article>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2411.17784">Diffusion Autoencoders for Few-shot Image Generation in Hyperbolic Space</a></h3>
+            <p>Lingxiao Li, <strong>Kaixuan Fan</strong>, Boqing Gong, Xiangyu Yue.</p>
+            <p class="venue">International Conference on Computer Vision, 2025.</p>
+          </article>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2512.03043">OneThinker: All-in-one Reasoning Model for Image and Video</a></h3>
+            <p>Kaituo Feng, Manyuan Zhang, Hongyu Li, <strong>Kaixuan Fan</strong>, Shuang Chen, Yilei Jiang, Dian Zheng, Peiwen Sun, Yiyuan Zhang, Haoze Sun, Yan Feng, Peng Pei, Xunliang Cai, Xiangyu Yue.</p>
+            <p class="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.</p>
+          </article>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2603.28767">Gen-Searcher: Reinforcing Agentic Search for Image Generation</a></h3>
+            <p>Kaituo Feng, Manyuan Zhang, Shuang Chen, Yunlong Lin, <strong>Kaixuan Fan</strong>, Yilei Jiang, Hongyu Li, Dian Zheng, Chenyang Wang, Xiangyu Yue.</p>
+            <p class="venue">arXiv preprint.</p>
+          </article>
+          <article class="publication">
+            <h3><a href="https://arxiv.org/abs/2604.18394">OpenGame: Open Agentic Coding for Games</a></h3>
+            <p>Yilei Jiang, Jinyuan Hu, Qianyin Xiao, Yaozhi Zheng, Ruize Ma, Kaituo Feng, Jiaming Han, Tianshuo Peng, <strong>Kaixuan Fan</strong>, Manyuan Zhang, Xiangyu Yue.</p>
+            <p class="venue">arXiv preprint.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-column" id="internship" aria-labelledby="internship-title">
+        <div>
+          <p class="section-kicker">Positions</p>
+          <h2 id="internship-title">Internship</h2>
+        </div>
+        <div class="timeline">
+          <article class="entry">
+            <div class="entry-date">Sept. 2025 - Apr. 2026</div>
+            <h3>LongCat Group Intern, Meituan Inc.</h3>
+            <p class="muted">Mentor: Dr. Manyuan Zhang</p>
+          </article>
+          <article class="entry">
+            <div class="entry-date">Oct. 2024 - Jun. 2025</div>
+            <h3>AI for Science Intern, Shanghai Artificial Intelligence Laboratory</h3>
+            <p class="muted">Mentor: Dr. Dongzhan Zhou</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-band" id="awards" aria-labelledby="awards-title">
+        <div>
+          <p class="section-kicker">Recognition</p>
+          <h2 id="awards-title">Honors and Awards</h2>
+        </div>
+        <ul class="award-list">
+          <li><span>2025</span> Hong Kong PhD Fellowship Scheme</li>
+          <li><span>2024, 2022</span> China National Scholarship</li>
+          <li><span>2024</span> Meritorious Winner, Mathematical Contest in Modeling</li>
+          <li><span>2023</span> Scholarship for Outstanding Students at Fudan University</li>
+        </ul>
+      </section>
+
+      <section class="section two-column" id="skills" aria-labelledby="skills-title">
+        <div>
+          <p class="section-kicker">Tools</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skill-grid">
+          <div>
+            <h3>Programming</h3>
+            <p>Python, NumPy, PyTorch, Matplotlib, C, C++, SystemVerilog, LaTeX</p>
+          </div>
+          <div>
+            <h3>Languages</h3>
+            <p>IELTS 7.5 overall</p>
+            <p>CET-6 666</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <p>Kaixuan Fan</p>
+      <a href="mailto:kxfan127@gmail.com">kxfan127@gmail.com</a>
+    </footer>
   </body>
 </html>
