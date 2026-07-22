@@ -270,6 +270,19 @@ dd a[href^="mailto:"],
   font-weight: 600;
 }
 
+.entry-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.entry-logo {
+  width: auto;
+  height: 26px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
 .muted {
   color: var(--muted);
 }
